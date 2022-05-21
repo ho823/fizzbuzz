@@ -1,0 +1,46 @@
+Arguments: 
+  /home/aho/.nvm/versions/node/v14.16.1/bin/node /home/aho/.nvm/versions/node/v14.16.1/bin/yarn add --dev œtypes/jest
+
+PATH: 
+  /home/aho/.nvm/versions/node/v14.16.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:151:13)
+      at Object.request (https.js:313:10)
+      at Request.module.exports.Request.start (/home/aho/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:141224:32)
+      at Request.module.exports.Request.end (/home/aho/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:141983:10)
+      at end (/home/aho/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:141037:14)
+      at Immediate._onImmediate (/home/aho/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:141051:7)
+      at processImmediate (internal/timers.js:461:21)
+
+npm manifest: 
+  {
+    "name": "fizzbuzz",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^27.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
